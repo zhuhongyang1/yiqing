@@ -1,0 +1,38 @@
+.shuoming{
+    color: #737373;
+    font-size: .24rem;
+    margin: .3rem 0 0 .4rem;
+    position: relative;
+}
+.shuoming::before{
+    content: '.';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    right: 0;
+    top: 54%;
+    left: 5.1rem;
+    transform: translate(0,-50%);
+    width: .24rem;
+    height: .24rem;
+    background: url('https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/icon_qs.png');
+    background-size: 100% 100%;
+}
+.h3{
+    position: relative;
+    margin: 0px .4rem 0 .4rem;
+    padding: 0;
+    box-sizing: border-box;
+    height: .8rem;
+    line-height: .8rem;
+    color: #222222;
+    font-size: .28rem;
+    font-weight: bold;
+}
+.biaoge{
+    width: 7.5rem;
+    padding: 0;
+    padding-bottom: 1px;
+    margin: .01rem .1rem 0 -.45rem;
+}

@@ -1,0 +1,133 @@
+.tabs{
+    width: 7rem;
+    height: .96rem;
+    padding: 0 .2rem;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    margin-bottom: .2rem;
+    text-align: center;
+    position:sticky;
+    top:0px;
+    z-index:999;
+}
+.tabs::before{
+    content: '.';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    width: .36rem;
+    height: .08rem;
+    border-radius: .08rem;
+    background-color: #005dff;
+    bottom: .04rem;
+    left: 14%;
+    transform: translate(-50%, 0);
+    position: absolute;
+}
+.tabs>li{
+    position: relative;
+    display: inline-block;
+    width: 1.65rem;
+    line-height: .98rem;
+    text-align: center;
+    font-size: .28rem;
+    color: #005dff;
+    font-weight: bold;
+}
+.icona{
+    background: chartreuse;
+}
+// .icona{
+//     width: auto;
+//     align-items: center;
+//     height: .84rem;
+//     text-align: center;
+//     margin: 0 .4rem .1rem .4rem;
+//     background-color: #eef4ff;
+//     border-radius: .12rem;
+//     display: flex;
+//     justify-content: center;
+// }
+// .yi,.er{
+//     display: block;
+//     width: 33.3%;
+//     height: .84rem;
+//     line-height: .84rem;
+//     text-decoration: none;
+//     border-radius: .12rem;
+//     font-size: .28rem;
+//     color: #222;
+//     font-weight: 300;
+//     position: relative;
+// }
+// .icona>a::before{
+//     content: '.';
+//     display: block;
+//     font-size: 0;
+//     position: absolute;
+//     line-height: 0;
+//     width: .02rem;
+//     height: .36rem;
+//     background-color: #d8e6ff;
+//     right: 0;
+//     top: 50%;
+//     transform: translate(0, -50%);
+// }
+// .jieshaoa{
+//     display: inline-block;
+//     padding: 0 0 0 .56rem;
+//     position: relative;
+// }
+// .jieshaoa::before{
+//     background-image: url('https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/icon_rili.png');
+//     content: '.';
+//     font-size: 0;
+//     position: absolute;
+//     display: block;
+//     line-height: 0;
+//     left: 0;
+//     top: 50%;
+//     transform: translate(0, -50%);
+//     background-size: 100% 100%;
+//     width: .44rem;
+//     height: .44rem;
+// }
+// .jieshaob{
+//     display: inline-block;
+//     padding: 0 0 0 .56rem;
+//     position: relative;
+// }
+// .jieshaob::before{
+//     background-image: url('https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/icon_plot.png');
+//     content: '.';
+//     font-size: 0;
+//     position: absolute;
+//     display: block;
+//     line-height: 0;
+//     left: 0;
+//     top: 50%;
+//     transform: translate(0, -50%);
+//     background-size: 100% 100%;
+//     width: .44rem;
+//     height: .44rem;
+// }
+// .jieshaoc{
+//     display: inline-block;
+//     padding: 0 0 0 .56rem;
+//     position: relative;
+// }
+// .jieshaoc::before{
+//     background-image: url('https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/icon_train.png');
+//     content: '.';
+//     font-size: 0;
+//     position: absolute;
+//     display: block;
+//     line-height: 0;
+//     left: 0;
+//     top: 50%;
+//     transform: translate(0, -50%);
+//     background-size: 100% 100%;
+//     width: .44rem;
+//     height: .44rem;
+// }

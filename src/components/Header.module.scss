@@ -1,0 +1,255 @@
+.header{
+    width: 7.5rem;
+    height: 3.34rem;
+    background: url('https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/top_headv3.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.one{
+    width: 1.68rem;
+    height: .52rem;
+    background: url(https://mat1.gtimg.com/news/signin/v6/yiqing_more_icon.png);
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0px;
+    top: .38rem;
+}
+.two{
+    width: 1.68rem;
+    height: .52rem;
+    background: url(https://mat1.gtimg.com/news/signin/v6/yiqing_zhuizong_more.png);
+    background-size: 100% 100%;
+    position: absolute;
+    right: 1.8rem;
+    top: .38rem;
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+    line-height: .26rem;
+    height: .26rem;
+    font-size: .24rem;
+    color: #fff;
+    position: absolute;
+    left: .4rem;
+    right: .4rem;
+    bottom: .3rem;
+}
+.three>p{
+    position: relative;
+    padding-right: .34rem;
+}
+.three::before{
+    content: '.';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: .24rem;
+    height: .24rem;
+    background: url('https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/icon_qs2.png');
+    background-size: 100% 100%;
+}
+.middle{
+    padding: .29rem .4rem;
+    width: 7.5rem;
+    line-height: .26rem;
+    font-size: .24rem;
+    color: #222222;
+    position: relative;
+}
+.four{
+    color: #737373;
+    font-size: .24rem;
+    margin-top: .08rem;
+    display: flex;
+    justify-content: space-between;
+}
+.six{
+    padding-right: .12rem;
+    margin-right: .12rem;
+    position: relative;
+}
+.spantime{
+    font-weight: 500;
+    color: #000000;
+}
+.emone{
+    font-style: normal;
+}
+.peopenum{
+    width: 7.5rem;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    padding-bottom: .3rem;
+    margin-top: .3rem;
+    position: relative;
+    z-index: 2;
+}
+.numone{
+    background-color: #fdf1f1;
+    width: 1.64rem;
+    margin-right: .04rem;
+    position: relative;
+    text-align: center;
+}
+.numonea{
+    background-color: #fff7ed;
+    width: 1.64rem;
+    margin-right: .04rem;
+    position: relative;
+    text-align: center;
+}
+.numoneb{
+    background-color: #f1f8f4;
+    width: 1.64rem;
+    margin-right: .04rem;
+    position: relative;
+    text-align: center;
+}
+.numonec{
+    background: #eeee;
+    width: 1.64rem;
+    margin-right: .04rem;
+    position: relative;
+    text-align: center;
+}
+.addnum{
+    display: block;
+    padding-top: .12rem;
+    color: #7c7c7c;
+    font-size: .2rem;
+    line-height: .24rem;
+    font-weight: 500;
+}
+.addnuma{
+    padding-top: .12rem;
+    color: #7c7c7c;
+    font-size: .2rem;
+    line-height: .24rem;
+    font-weight: 500;
+    display: block;
+}
+.addnumb{
+    padding-top: .12rem;
+    color: #7c7c7c;
+    font-size: .2rem;
+    line-height: .24rem;
+    font-weight: 500;
+    display: block;
+}
+.addnumc{
+    padding-top: .12rem;
+    color: #7c7c7c;
+    font-size: .2rem;
+    line-height: .24rem;
+    font-weight: 500;
+    display: block;
+}
+.addnum>span{
+    color: #f55253;
+}
+.addnuma>span{
+    color: #ff961e;
+}
+.addnumb>span{
+    color: #178b50;
+}
+.addnumc>span{
+    color: #66666c;
+}
+.zongshu{
+    color: #f55253;
+    height: auto;
+    line-height: .46rem;
+    font-size: .44rem;
+    margin-bottom: .08rem;
+    font-weight: 600;
+    padding-top: .12rem;
+}
+.zongshua{
+    color: #ff961e;
+    height: auto;
+    line-height: .46rem;
+    font-size: .44rem;
+    margin-bottom: .08rem;
+    font-weight: 600;
+    padding-top: .12rem;
+}
+.zongshub{
+    color: #178b50;
+    height: auto;
+    line-height: .46rem;
+    font-size: .44rem;
+    margin-bottom: .08rem;
+    font-weight: 600;
+    padding-top: .12rem;
+}
+.zongshuc{
+    color: #66666c;
+    height: auto;
+    line-height: .46rem;
+    font-size: .44rem;
+    margin-bottom: .08rem;
+    font-weight: 600;
+    padding-top: .12rem;
+}
+.text{
+    border-radius: 0 0 0 .12rem;
+    font-size: .24rem;
+    height: .54rem;
+    line-height: .54rem;
+    color: #222;
+    font-weight: 500;
+    background-color: #ffe0e0;
+}
+.texta{
+    font-size: .24rem;
+    height: .54rem;
+    line-height: .54rem;
+    color: #222;
+    font-weight: 500;
+    background-color: #ffeed9;
+    position: relative;
+}
+.texta::before{
+    content: '.';
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    position: absolute;
+    width: .24rem;
+    height: .24rem;
+    background: url('https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/i_sus_down.png');
+    background-size: 100% 100%;
+    left: 75%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.texta>span{
+    display: inline-block;
+    padding-right: .28rem;
+    position: relative;
+}
+.textb{
+    border-radius: 0 0 0 .12rem;
+    font-size: .24rem;
+    height: .54rem;
+    line-height: .54rem;
+    color: #222;
+    font-weight: 500;
+    background-color: #dfeee6;
+}
+.textc{
+    font-size: .24rem;
+    height: .54rem;
+    line-height: .54rem;
+    color: #222;
+    font-weight: 500;
+    background-color: #ffeed9;
+    position: relative;
+}

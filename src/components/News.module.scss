@@ -1,0 +1,145 @@
+.box{
+    background: #eef5ff;
+    padding: .2rem .4rem;
+    margin-top: .8rem;
+}
+.boxtitle{
+    display: flex;
+    position: relative;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .4rem;
+    font-weight: bold;
+}
+.boxtitle>h3{
+    height: .22rem;
+    font-weight: 700;
+}
+.areaname{
+    color: #005dff;
+}
+.cityname{
+    width: 1rem;
+    height: .4rem;
+    // background: url('https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/city-change.png');
+    // background: url(../img/city-change.png);
+    // background-size: 100% 100%;
+    position: absolute;
+    right: -1.7rem;
+    font-size: .15rem;
+}
+.cityname>select{
+    margin-left: -3rem;
+}
+.concent{
+    margin-top: .1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.1rem;
+    padding-bottom: .2rem;
+    border-bottom: 1px solid #d8d8d8;
+}
+.concent>li{
+    list-style: none;
+    width: 1.6rem;
+    text-align: center;
+}
+.concent>li>h3:nth-child(1){
+    font-size: 0.48rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.fontsize{
+    font-size: .25rem;
+    color: #aaaa;
+}
+.numone{
+    color: #005dff;
+}
+.numtwo{
+    color: #f55253;
+}
+.numthree{
+    color: #178b50;
+}
+.numfour{
+    color: #66666c;
+}
+.namneIcon{
+    padding: .22rem 0 .22rem .4rem;
+    font-size: .28rem;
+    color: #222222;
+    font-weight: 400;
+    line-height: .44rem;
+    display: flex;
+    position: relative;
+}
+.namneIcon::before{
+    width: .02rem;
+    bottom: 0;
+    background-color: #aaaa;
+    content: '.';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: -.04rem;
+    left: .1rem;
+}
+.namneIcon::after{
+    width: .2rem;
+    height: .2rem;
+    border-radius: 50%;
+    border: 3px solid #aaaa;
+    background-color: #ffff;
+    content: '.';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    left: .0rem
+}
+// .namneIcon>i{
+//     background-color: #222222;
+//     width: .76rem;
+//     height: .32rem;
+//     background: url('https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/text-before.png') 0 0 no-repeat;
+//     background-size: .76rem .32rem;
+//     display: inline-block;
+//     margin-bottom: -.04rem;
+//     margin-right: .05rem; //快讯
+// }
+.bottomsize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .1rem;
+    margin-bottom: .25rem;
+}
+.bottomsize>p:nth-child(1){
+    height: .66rem;
+    padding-left: .76rem;
+    padding-right: .3rem;
+    line-height: .66rem;
+    font-size: .28rem;
+    color: #005dff;
+    border: 1px solid #005dff;
+    background: url('https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/irllr.png') .23rem center no-repeat #fff;
+    background-size: .36rem .36rem;
+    border-radius: .3rem;
+    margin: 0 auto;
+}
+.bottomsize>p:nth-child(2){
+    height: .66rem;
+    padding-left: .76rem;
+    padding-right: .3rem;
+    line-height: .66rem;
+    font-size: .28rem;
+    color: #005dff;
+    border: 1px solid #005dff;
+    background: url('https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/look.png') .23rem center no-repeat #fff;
+    background-size: .34rem .34rem;
+    border-radius: .3rem;
+    margin: 0 auto;
+}

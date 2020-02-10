@@ -1,0 +1,86 @@
+.box{
+    width: 100%;
+    margin-top: .1rem;
+}
+.h3{
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: .35rem;
+    height: 1rem;
+    line-height: 1rem;
+    background: url('https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/smart.png') .4rem center no-repeat;
+    padding: 0 .7rem;
+    color: #005dff;
+    position: relative;
+}
+.healthIcon{
+    position: absolute;
+    right: .36rem;
+    top: .15rem;
+    width: 2rem;
+    height: .45rem;
+    margin-top: .15rem;
+    background: url(https://mat1.gtimg.com/news/signin/v6/yiqmore.png);
+    background-size: 100% 100%;
+}
+.middlebox{
+    width: 100%;
+    overflow: hidden;
+}
+.smallbox{
+    width: 80%;
+    padding: 3%;
+    margin: .1rem .1rem .1rem .65rem;
+    position: relative;
+    height: 6.8rem;
+    border: 1px solid #d8d8d8;
+    border-radius: .12rem;
+}
+.explainfont{
+    display: block;
+    width: .96rem;
+    line-height: .48rem;
+    background: red;
+    color: #fff;
+    margin-top: .2rem;
+    margin-left: .45rem;
+    font-size: .3rem;
+    text-align: center;
+    border-radius: .1rem;
+}
+.title{
+    font-weight: 500;
+    font-size: .4rem;
+    line-height: .56rem;
+    margin: .24rem .4rem 0 .4rem;
+    text-decoration: none;
+}
+.abstract{
+    font-size: .28rem;
+    line-height: .44rem;
+    margin: .4rem .4rem 0 .4rem;
+    text-decoration: none;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+.look{
+    font-size: .28rem;
+    margin: .2rem 0 0 .4rem;
+    font-weight: normal;
+}
+.dajai{
+    position: absolute;
+    margin: 0 auto;
+    right: .4rem;
+    bottom: .4rem;
+    width: 2.4rem;
+    height: 2.42rem;
+    background: url('https://mat1.gtimg.com/news/images/inews/2020/feiyan/18/img/rumor_image.png');
+    background-size: 100% 100%;
+    z-index: 99;
+}
